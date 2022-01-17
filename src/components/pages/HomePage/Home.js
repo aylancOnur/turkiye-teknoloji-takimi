@@ -1,17 +1,17 @@
 import React from "react";
 import HeroSection from "../../HeroSection";
-import { homeObjTwo, homeObjThree, homeObjFour } from "./Data";
-import Slider from "../../Slider"
-import Pricing from "../../Pricing";
+import { homeObjTwo, homeObjThree, homeObjOne } from "./Data";
+import Slider from "../../Slider";
+import Card from "../../Card";
 
 function Home() {
   return (
     <>
       <Slider />
-      <Pricing />
-      <HeroSection {...homeObjThree} />
+      <Card />
       <HeroSection {...homeObjTwo} />
-      <HeroSection {...homeObjFour} />
+      <HeroSection {...homeObjOne} />
+      <HeroSection {...homeObjThree} />
     </>
   );
 }

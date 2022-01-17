@@ -1,17 +1,4 @@
 export const homeObjOne = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  headline: "Unlimited Transactions with zero fees",
-  description:
-    "Get access to our exclusive diamond card that allows you to  send unlimited transactions without getting charged any fees",
-  buttonLabel: "Get Started",
-  imgStart: "",
-  img: "images/svg-1.svg",
-  alt: "Credit Card",
-};
-
-export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -24,7 +11,7 @@ export const homeObjTwo = {
   alt: "Vault",
 };
 
-export const homeObjThree = {
+export const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -37,7 +24,7 @@ export const homeObjThree = {
   alt: "Vault",
 };
 
-export const homeObjFour = {
+export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
